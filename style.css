@@ -10,8 +10,25 @@
   grid-column: 1 / 4;
   grid-row: 1/2;
   background: red;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10px;
 }
-h2{
-  font-size: 15px;
-  color: red;
+.logo-img-name{
+  display: flex;
+}
+.logo-img{
+  width: 40px;
+}
+.logo-name{
+  font-size: 30px;
+  font-weight: bold;
+  color: 222;
+}
+.header ul{
+  display: flex;
+}
+.header ul li {
+  list-style: none;
+  margin: 10px;
 }

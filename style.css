@@ -46,6 +46,7 @@
   width: 50%;
 	height: 100vh;
 	transform: skew(-30deg);
+  background-color: #dadada;
   z-index: 1;
 }
 .logo > a{
